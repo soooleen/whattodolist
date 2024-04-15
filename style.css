@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container{
+    background-color: white;
+    min-height: 95vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    max-width: 700px;
+    padding: 25px;
+    border-radius: 1.5em;
+    margin-top: 15px;
+}
+
+#task-input {
+    font-size: 20px; 
+    padding: 5px; 
+}
+
+#add-button {
+    font-size: 20px; 
+    padding: 5px 10px; 
+}
+
+
+.task-area{
+    border: 1px solid lightgray;
+}
+
+.task-tabs{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+}
+.task-tabs div{
+    padding: 1em;
+    cursor: pointer
+}
+
+#under-line{
+    height: 4px;
+    background-color: pink;
+    position: absolute;
+    width: 70px;
+    left: 0px;
+    top: 52px;
+    padding: 0px;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.task-done {
+    text-decoration: line-through;
+    color: lightgray;
+    max-width: 83%;
+  }
+
+.task-tabs div{
+    cursor: pointer;
+}
